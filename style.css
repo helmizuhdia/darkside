@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 
-*{background-color: black;
+
+*{background-color: rgba(0, 0, 0, 0.055);
+    margin: 0px;
+    padding: 0px;
 color: aliceblue;}
 h1{
    text-align: center;
@@ -25,3 +28,20 @@ p{padding: 70px;
 h5 {text-align: end;
 padding-right: 70px
 ;}
+i{
+    padding-right: 70px;
+    padding-left: 70px;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.281);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#text_container{
+    position: absolute;
+}
+footer{
+    margin-top: 20%;
+}
